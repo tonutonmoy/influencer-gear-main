@@ -4,11 +4,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-}
+
+
+
+
 
 header,main{
     margin: 0 120px;
+    
 }
 
 /* nav style */
@@ -73,7 +76,7 @@ height: 133px;
 .banner-btn{
     font-size: 16px;
     color: #FFFFFF;
-    background-color: #E02C6D;
+    background-color:#E02C6D;
     width: 196px;
     height: 44px;
     border-radius: 41px;
@@ -112,7 +115,202 @@ height: 133px;
     justify-content: space-evenly;
     
 }
-.logo-div div{
+
+
+/* Popular Collection */
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
+    margin-left: 170px;
+    grid-row-gap: 30px;
+    margin-top: 30px;
+    
+    
+   
+}
+.card-title{
+    margin-top: 223px;
+    text-align: center;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.card-container{
+    width: 329px;
+    height: 477px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.card-about{
+    margin: 17px 14px;
+}
+.card-about h2{
+   font-size: 28px;
+   font-family:' Poppins';
+   color: #18191F;
+}
+.card-about h3{
+   font-size: 24px;
+   margin-top: 6px;
+   color: #18191F;
+   margin-bottom: 10px;
+}
+.card-about p{
+   font-size: 14px;
+  width: 196px;
+  height: 61px;
+  color: #787885;
+  margin-top: 20px;
+}
+.ratting{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #5E6366;
+}
+.fa-star{
+    font-size: 14px;
+     color: #FB8200;
+}
+.card-img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin: 16px 15px;
+}
+.card-see-more {
+    text-align: end;
+   
+    
+      padding-top: 15px;
+      margin-right: 17%;
+    }
+
+
+.card-see-more a{
+    font-size: 16px;
+    color:#E02C6D;
+    text-decoration: none;
     
 }
 
+/* Featured products at one place
+    
+         Last blog     */
+
+
+     
+     
+ .last-section{
+    width: 1110px;
+    height: 270px;
+  
+    margin-left: 150px;
+    margin-top: 30px;
+ }
+
+.last{
+    display: flex;
+    column-gap: 96px;
+   
+}         
+.last-img{
+    width: 404px;
+    height: 270px;
+   
+}   
+
+.last-blog{
+    width: 610px;
+    height: 224px;
+    margin-top: 40px;
+   
+   
+}
+.last-blog-title{
+    font-size: 38px;
+    color: #0A0826;
+}
+.last-blog-p{
+    font-size: 16px;
+    color:#6C6C6C;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.last-blog-btn{
+    font-size: 16px;
+    color:#FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 5px ;
+    width: 155px;
+    height: 44px;
+}
+.fa-solid{
+    margin-left: 15px;
+}
+
+/* footer */
+
+
+footer{
+    
+    width: 100%;
+    height: 250px;
+    background-color: #0A0826;
+    margin-top: 150px;
+}
+.footer-container{
+   
+    
+   
+    
+    width: 262px;
+    height: 139px;
+    padding-top: 70px;
+    margin-left: 40%;
+    
+
+}
+
+.footer-h1{
+color: #FFFFFF;
+font-size: 24px;
+margin-bottom: 10px;
+margin-left: 33px;
+}
+
+.footer-p-1{
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+}
+
+.footer-p-2{
+    font-size: 14px;
+    color: #D9DBE1;
+    text-align: center;
+
+}
+.footer-logo{
+    display: flex;
+    
+   justify-content: space-around;
+    margin-top: 30px;
+    width: 200px;
+   
+    
+    margin-left: 40px;
+}
+
+.footer-logo div{
+   height: 32px;
+   width: 32px;
+   color: #FFFFFF;
+}
+
+
+/* 
