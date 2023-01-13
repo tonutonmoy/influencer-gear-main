@@ -1,0 +1,118 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+
+header,main{
+    margin: 0 120px;
+}
+
+/* nav style */
+nav{
+  
+    display: flex;
+    justify-content:space-between;
+    margin-top: 96px;
+    
+
+}
+.nav-title-div{
+    
+    
+}
+.nav-title{
+   font-size: 24px;
+   color: #3A3A3A;
+   width: 243px;
+   height: 52.2px;
+  
+}
+.menu-div{
+    width: 466px;
+    height: 36px;
+    margin-right: 120px;
+}
+.menu{
+    font-size: 16px;
+    margin-left: 34px;
+    color: #3A3A3A;
+    
+}
+
+/* Banner */
+
+.banner{
+    display: flex;
+   
+    justify-content: space-between;
+  
+    
+
+}
+.banner-blog{
+    margin-top: 150px;
+}
+.banner-title{
+font-size: 52px;
+color: #3A3A3A;
+width: 582px;
+height: 133px;
+}
+.banner-p{
+    font-size: 16px;
+    color: #3A3A3A;
+    width: 505px;
+    height: 60.9px;
+    margin-top: 16px;
+
+}
+.banner-btn{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    border: none;
+    margin-top: 16px;
+
+}
+.banner-img{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    margin-right: 165px;
+    width: 440px;
+    height: 414px;
+    margin-top: 80px;
+
+}
+
+/* Logo */
+
+.logo{
+    width: 1110px;
+    height: 110px;
+    margin-top: 200px;
+    margin-left: 165px;
+    margin-right: 165px;
+    
+    padding-top: 36px;
+    padding-left: 61px;
+   
+}
+.logo-div{
+    width: 986.47px;
+    height: 39,61px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.logo-div div{
+    
+}
+
